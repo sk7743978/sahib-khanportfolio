@@ -26,7 +26,7 @@ form.addEventListener("submit", (event) => {
   const name = document.getElementById("name").value.trim();
   const email = document.getElementById("email").value.trim();
   const message = document.getElementById("message").value.trim();
-  const recipient = "your.email@example.com"; // Replace with your real email.
+  const recipient = "sk7743978@gmail.com"; // Replace with your real email.
   const subject = encodeURIComponent(`Portfolio message from ${name}`);
   const body = encodeURIComponent(
     `Name: ${name}\nEmail: ${email}\n\n${message}`,
